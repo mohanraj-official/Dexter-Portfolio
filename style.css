@@ -153,3 +153,15 @@ body.light .footer {
   font-size: 1.5rem;
   cursor: pointer;
 }
+/* -------------------------------------- this is for toggle switch -----------------------------------------------*/
+:root {
+  --bg-color: #0A192F;
+  --primary-color: #00BFFF;
+  --text-color: #FFFFFF;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
